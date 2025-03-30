@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		65B0FEF42D99A6CA00F23310 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65B0FEDB2D99A6C800F23310 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65B0FEE22D99A6C800F23310;
+			remoteInfo = KiwiSocial;
+		};
+		65B0FEFE2D99A6CA00F23310 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65B0FEDB2D99A6C800F23310 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65B0FEE22D99A6C800F23310;
+			remoteInfo = KiwiSocial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65B0FEE32D99A6C800F23310 /* KiwiSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B0FEF32D99A6CA00F23310 /* KiwiSocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiwiSocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B0FEFD2D99A6CA00F23310 /* KiwiSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiwiSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		65B0FEE52D99A6C800F23310 /* KiwiSocial */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KiwiSocial;
+			sourceTree = "<group>";
+		};
+		65B0FEF62D99A6CA00F23310 /* KiwiSocialTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KiwiSocialTests;
+			sourceTree = "<group>";
+		};
+		65B0FF002D99A6CA00F23310 /* KiwiSocialUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KiwiSocialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65B0FEE02D99A6C800F23310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B0FEF02D99A6CA00F23310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B0FEFA2D99A6CA00F23310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65B0FEDA2D99A6C800F23310 = {
+			isa = PBXGroup;
+			children = (
+				65B0FEE52D99A6C800F23310 /* KiwiSocial */,
+				65B0FEF62D99A6CA00F23310 /* KiwiSocialTests */,
+				65B0FF002D99A6CA00F23310 /* KiwiSocialUITests */,
+				65B0FEE42D99A6C800F23310 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65B0FEE42D99A6C800F23310 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65B0FEE32D99A6C800F23310 /* KiwiSocial.app */,
+				65B0FEF32D99A6CA00F23310 /* KiwiSocialTests.xctest */,
+				65B0FEFD2D99A6CA00F23310 /* KiwiSocialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65B0FEE22D99A6C800F23310 /* KiwiSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B0FF072D99A6CA00F23310 /* Build configuration list for PBXNativeTarget "KiwiSocial" */;
+			buildPhases = (
+				65B0FEDF2D99A6C800F23310 /* Sources */,
+				65B0FEE02D99A6C800F23310 /* Frameworks */,
+				65B0FEE12D99A6C800F23310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				65B0FEE52D99A6C800F23310 /* KiwiSocial */,
+			);
+			name = KiwiSocial;
+			packageProductDependencies = (
+			);
+			productName = KiwiSocial;
+			productReference = 65B0FEE32D99A6C800F23310 /* KiwiSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65B0FEF22D99A6CA00F23310 /* KiwiSocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B0FF0A2D99A6CA00F23310 /* Build configuration list for PBXNativeTarget "KiwiSocialTests" */;
+			buildPhases = (
+				65B0FEEF2D99A6CA00F23310 /* Sources */,
+				65B0FEF02D99A6CA00F23310 /* Frameworks */,
+				65B0FEF12D99A6CA00F23310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65B0FEF52D99A6CA00F23310 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				65B0FEF62D99A6CA00F23310 /* KiwiSocialTests */,
+			);
+			name = KiwiSocialTests;
+			packageProductDependencies = (
+			);
+			productName = KiwiSocialTests;
+			productReference = 65B0FEF32D99A6CA00F23310 /* KiwiSocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65B0FEFC2D99A6CA00F23310 /* KiwiSocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B0FF0D2D99A6CA00F23310 /* Build configuration list for PBXNativeTarget "KiwiSocialUITests" */;
+			buildPhases = (
+				65B0FEF92D99A6CA00F23310 /* Sources */,
+				65B0FEFA2D99A6CA00F23310 /* Frameworks */,
+				65B0FEFB2D99A6CA00F23310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65B0FEFF2D99A6CA00F23310 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				65B0FF002D99A6CA00F23310 /* KiwiSocialUITests */,
+			);
+			name = KiwiSocialUITests;
+			packageProductDependencies = (
+			);
+			productName = KiwiSocialUITests;
+			productReference = 65B0FEFD2D99A6CA00F23310 /* KiwiSocialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65B0FEDB2D99A6C800F23310 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					65B0FEE22D99A6C800F23310 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					65B0FEF22D99A6CA00F23310 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 65B0FEE22D99A6C800F23310;
+					};
+					65B0FEFC2D99A6CA00F23310 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 65B0FEE22D99A6C800F23310;
+					};
+				};
+			};
+			buildConfigurationList = 65B0FEDE2D99A6C800F23310 /* Build configuration list for PBXProject "KiwiSocial" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65B0FEDA2D99A6C800F23310;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 65B0FEE42D99A6C800F23310 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65B0FEE22D99A6C800F23310 /* KiwiSocial */,
+				65B0FEF22D99A6CA00F23310 /* KiwiSocialTests */,
+				65B0FEFC2D99A6CA00F23310 /* KiwiSocialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65B0FEE12D99A6C800F23310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B0FEF12D99A6CA00F23310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B0FEFB2D99A6CA00F23310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65B0FEDF2D99A6C800F23310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B0FEEF2D99A6CA00F23310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B0FEF92D99A6CA00F23310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65B0FEF52D99A6CA00F23310 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65B0FEE22D99A6C800F23310 /* KiwiSocial */;
+			targetProxy = 65B0FEF42D99A6CA00F23310 /* PBXContainerItemProxy */;
+		};
+		65B0FEFF2D99A6CA00F23310 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65B0FEE22D99A6C800F23310 /* KiwiSocial */;
+			targetProxy = 65B0FEFE2D99A6CA00F23310 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		65B0FF052D99A6CA00F23310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65B0FF062D99A6CA00F23310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65B0FF082D99A6CA00F23310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KiwiSocial/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.KiwiSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65B0FF092D99A6CA00F23310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KiwiSocial/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.KiwiSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65B0FF0B2D99A6CA00F23310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.KiwiSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KiwiSocial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KiwiSocial";
+			};
+			name = Debug;
+		};
+		65B0FF0C2D99A6CA00F23310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.KiwiSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KiwiSocial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KiwiSocial";
+			};
+			name = Release;
+		};
+		65B0FF0E2D99A6CA00F23310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.KiwiSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KiwiSocial;
+			};
+			name = Debug;
+		};
+		65B0FF0F2D99A6CA00F23310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.KiwiSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KiwiSocial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65B0FEDE2D99A6C800F23310 /* Build configuration list for PBXProject "KiwiSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B0FF052D99A6CA00F23310 /* Debug */,
+				65B0FF062D99A6CA00F23310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B0FF072D99A6CA00F23310 /* Build configuration list for PBXNativeTarget "KiwiSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B0FF082D99A6CA00F23310 /* Debug */,
+				65B0FF092D99A6CA00F23310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B0FF0A2D99A6CA00F23310 /* Build configuration list for PBXNativeTarget "KiwiSocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B0FF0B2D99A6CA00F23310 /* Debug */,
+				65B0FF0C2D99A6CA00F23310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B0FF0D2D99A6CA00F23310 /* Build configuration list for PBXNativeTarget "KiwiSocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B0FF0E2D99A6CA00F23310 /* Debug */,
+				65B0FF0F2D99A6CA00F23310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65B0FEDB2D99A6C800F23310 /* Project object */;
+}
