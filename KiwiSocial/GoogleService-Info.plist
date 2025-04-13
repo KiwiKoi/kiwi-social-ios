@@ -19,17 +19,22 @@
 	<key>STORAGE_BUCKET</key>
 	<string>chatter-app-33613.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:854298776334:ios:51d598a0e8b34d2413bd5f</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>DATABASE_URL</key>
 	<string>https://chatter-app-33613-default-rtdb.europe-west1.firebasedatabase.app</string>
 </dict>
