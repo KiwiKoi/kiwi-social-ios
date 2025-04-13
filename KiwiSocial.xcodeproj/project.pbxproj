@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6576E3982DABFC38007347DA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6576E3972DABFC38007347DA /* FirebaseAuth */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		65B0FEF42D99A6CA00F23310 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6576E3982DABFC38007347DA /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = KiwiSocial;
 			packageProductDependencies = (
+				6576E3972DABFC38007347DA /* FirebaseAuth */,
 			);
 			productName = KiwiSocial;
 			productReference = 65B0FEE32D99A6C800F23310 /* KiwiSocial.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 65B0FEDA2D99A6C800F23310;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6576E3962DABFC37007347DA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 65B0FEE42D99A6C800F23310 /* Products */;
 			projectDirPath = "";
@@ -552,6 +561,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6576E3962DABFC37007347DA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6576E3972DABFC38007347DA /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6576E3962DABFC37007347DA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 65B0FEDB2D99A6C800F23310 /* Project object */;
 }

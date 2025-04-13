@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>854298776334-igmtm69pb17jfgfv65po3snehlqr1sq2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.854298776334-igmtm69pb17jfgfv65po3snehlqr1sq2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD61hEv0612KsrHEmZDPgZJOnWBwxOHkac</string>
+	<key>GCM_SENDER_ID</key>
+	<string>854298776334</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.daniel.KiwiSocial</string>
+	<key>PROJECT_ID</key>
+	<string>chatter-app-33613</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chatter-app-33613.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:854298776334:ios:51d598a0e8b34d2413bd5f</string>
+	<key>DATABASE_URL</key>
+	<string>https://chatter-app-33613-default-rtdb.europe-west1.firebasedatabase.app</string>
+</dict>
+</plist>
