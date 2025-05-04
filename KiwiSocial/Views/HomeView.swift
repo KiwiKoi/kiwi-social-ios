@@ -13,7 +13,7 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             List(viewModel.posts) { post in
-                VStack(alignment: .leading) {
+                NavigationLink(destination:PostDetailView(post: post)) {
                     Text(post.body)
                         .font(.subheadline)
                 }
