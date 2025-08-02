@@ -1,10 +1,3 @@
-//
-//  PostDetailView.swift
-//  KiwiSocial
-//
-//  Created by Daniel Visage on 04/05/2025.
-//
-
 import SwiftUI
 
 struct PostDetailView: View {

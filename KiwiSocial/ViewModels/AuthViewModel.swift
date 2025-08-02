@@ -1,10 +1,3 @@
-//
-//  AuthViewModel.swift
-//  KiwiSocial
-//
-//  Created by Daniel Visage on 13/04/2025.
-//
-
 import Foundation
 import FirebaseAuth
 

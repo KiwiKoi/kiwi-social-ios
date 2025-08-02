@@ -1,10 +1,3 @@
-//
-//  LoginView.swift
-//  KiwiSocial
-//
-//  Created by Daniel Visage on 13/04/2025.
-//
-
 import SwiftUI
 
 struct LoginView: View {

@@ -1,14 +1,9 @@
-//
-//  HomeView.swift
-//  KiwiSocial
-//
-//  Created by Daniel Visage on 13/04/2025.
-//
-
 import SwiftUI
 
 struct HomeView: View {
     @StateObject var viewModel = PostViewModel()
+    
+    @State private var isPresentingNewPostForm = false
 
     var body: some View {
         NavigationView {
@@ -19,9 +14,24 @@ struct HomeView: View {
                 }
             }
             .navigationTitle("Posts")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        isPresentingNewPostForm = true
+                    }) {
+                        Image(systemName: "plus")
+                    }
+                }
+            }
             .onAppear {
                 viewModel.fetchPosts()
             }
+            .sheet(isPresented: $isPresentingNewPostForm) {
+                 NewPostView {
+                     // ✅ Refresh posts after new post is created
+                     viewModel.fetchPosts()
+                 }
+             }
         }
     }
 }
