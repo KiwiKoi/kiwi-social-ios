@@ -23,7 +23,7 @@ struct NewCommentView: View {
 
     private func createComment() {
         guard let userId = Auth.auth().currentUser?.uid else { return }
-        var components = URLComponents(string: "http://127.0.0.1:8080/api/comments")!
+        var components = URLComponents(string: "http://192.168.1.11:8080/api/comments")!
         components.queryItems = [
             URLQueryItem(name: "userId", value: userId),
             URLQueryItem(name: "postId", value: postId)

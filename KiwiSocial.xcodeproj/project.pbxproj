@@ -33,9 +33,22 @@
 		65B0FEFD2D99A6CA00F23310 /* KiwiSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiwiSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		651C87422E3FA18100565E9F /* Exceptions for "KiwiSocial" folder in "KiwiSocial" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 65B0FEE22D99A6C800F23310 /* KiwiSocial */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		65B0FEE52D99A6C800F23310 /* KiwiSocial */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				651C87422E3FA18100565E9F /* Exceptions for "KiwiSocial" folder in "KiwiSocial" target */,
+			);
 			path = KiwiSocial;
 			sourceTree = "<group>";
 		};
@@ -408,6 +421,9 @@
 				DEVELOPMENT_TEAM = NK833WT59C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KiwiSocial/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This app needs access to your local network to connect to the backend server.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -437,6 +453,9 @@
 				DEVELOPMENT_TEAM = NK833WT59C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KiwiSocial/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This app needs access to your local network to connect to the backend server.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
