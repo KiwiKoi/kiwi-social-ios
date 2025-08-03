@@ -1,0 +1,11 @@
+## User settings
+xcuserdata/
+
+## Firebase
+./KiwiSocial/GoogleService-Info.plist
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+

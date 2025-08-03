@@ -28,7 +28,6 @@ struct HomeView: View {
             }
             .sheet(isPresented: $isPresentingNewPostForm) {
                  NewPostView {
-                     // ✅ Refresh posts after new post is created
                      viewModel.fetchPosts()
                  }
              }

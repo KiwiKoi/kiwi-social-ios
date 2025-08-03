@@ -4,12 +4,21 @@ struct PostDetailView: View {
     let post: Post
     
     var body: some View {
-        VStack(){
-            Text(post.body)
-                .font(.body)
-            Spacer()
+        ScrollView{
+                VStack(alignment: .leading, spacing: 8){
+                    Text(post.author.username)
+                        .font(.caption)
+                    Text(post.createdAt.formatted())
+                        .font(.caption)
+                        .foregroundStyle(.gray)
+                    Text(post.body)
+                        .font(.body)
+                    Spacer()
+                }
+                .padding()
+            
+            CommentSectionView(postId: post.id)
         }
-        .padding()
         .navigationTitle("Details")
     }
 }
