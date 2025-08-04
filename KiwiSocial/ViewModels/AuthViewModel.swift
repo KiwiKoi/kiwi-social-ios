@@ -2,6 +2,7 @@ import Foundation
 import FirebaseAuth
 
 class AuthViewModel: ObservableObject {
+
     func signIn(email: String, password: String, completion: @escaping (Result<Void, Error>) -> Void) {
         Auth.auth().signIn(withEmail: email, password: password) { result, error in
             if let error = error {

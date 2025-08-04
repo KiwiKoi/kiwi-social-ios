@@ -22,6 +22,11 @@ struct HomeView: View {
                         Image(systemName: "plus")
                     }
                 }
+                ToolbarItem(placement: .navigationBarLeading) {
+                    NavigationLink(destination: DashboardView()) {
+                        Image(systemName: "person.circle")
+                    }
+                }
             }
             .onAppear {
                 viewModel.fetchPosts()

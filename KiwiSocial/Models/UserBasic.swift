@@ -1,4 +1,4 @@
-struct UserBasic: Decodable {
+struct UserBasic: Codable {
     let id: String
     let username: String
 }

@@ -1,6 +1,6 @@
 import Foundation
 
-struct Post: Identifiable, Decodable {
+struct Post: Identifiable, Codable {
     let id: String
     let body: String
     let createdAt: Date
