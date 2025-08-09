@@ -6,28 +6,26 @@ struct HomeView: View {
     @State private var isPresentingNewPostForm = false
 
     var body: some View {
-        NavigationView {
-            List(viewModel.posts) { post in
-                NavigationLink(destination:PostDetailView(post: post)) {
-                    Text(post.body)
-                        .font(.subheadline)
+            VStack{
+                List(viewModel.posts) { post in
+                    NavigationLink(destination:PostDetailView(post: post)) {
+                        Text(post.body)
+                            .font(.subheadline)
+                    }
+                  
+                }
+                .toolbar{
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Button(action: {
+                            isPresentingNewPostForm = true
+                        }) {
+                            Image(systemName: "plus")
+                        }
+                    }
                 }
             }
+       
             .navigationTitle("Posts")
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(action: {
-                        isPresentingNewPostForm = true
-                    }) {
-                        Image(systemName: "plus")
-                    }
-                }
-                ToolbarItem(placement: .navigationBarLeading) {
-                    NavigationLink(destination: DashboardView()) {
-                        Image(systemName: "person.circle")
-                    }
-                }
-            }
             .onAppear {
                 viewModel.fetchPosts()
             }
@@ -36,7 +34,6 @@ struct HomeView: View {
                      viewModel.fetchPosts()
                  }
              }
-        }
     }
 }
 

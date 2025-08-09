@@ -2,6 +2,13 @@ import Foundation
 import FirebaseAuth
 
 class AuthViewModel: ObservableObject {
+    @Published var isLoggedIn: Bool = Auth.auth().currentUser != nil
+    
+    init() {
+        Auth.auth().addStateDidChangeListener { _, user in
+            self.isLoggedIn = user != nil
+        }
+    }
 
     func signIn(email: String, password: String, completion: @escaping (Result<Void, Error>) -> Void) {
         Auth.auth().signIn(withEmail: email, password: password) { result, error in

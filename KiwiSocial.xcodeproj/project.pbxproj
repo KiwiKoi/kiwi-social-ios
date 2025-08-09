@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6576E3982DABFC38007347DA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6576E3972DABFC38007347DA /* FirebaseAuth */; };
+		65D3AAA92E47AABB002DB137 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 65D3AAA82E47AABB002DB137 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		65B0FEE32D99A6C800F23310 /* KiwiSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B0FEF32D99A6CA00F23310 /* KiwiSocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiwiSocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B0FEFD2D99A6CA00F23310 /* KiwiSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiwiSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D3AAA82E47AABB002DB137 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -97,6 +99,7 @@
 				65B0FEF62D99A6CA00F23310 /* KiwiSocialTests */,
 				65B0FF002D99A6CA00F23310 /* KiwiSocialUITests */,
 				65B0FEE42D99A6C800F23310 /* Products */,
+				65D3AAA82E47AABB002DB137 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D3AAA92E47AABB002DB137 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

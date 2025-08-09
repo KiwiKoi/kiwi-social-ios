@@ -11,7 +11,7 @@ class UserViewModel: ObservableObject {
             return
         }
 
-        guard let url = URL(string: "http://192.168.1.11:8080/api/users/\(uid)") else {
+        guard let url = URL(string: "http://127.0.0.1:8080/api/users/\(uid)") else {
             errorMessage = "Invalid URL."
             return
         }

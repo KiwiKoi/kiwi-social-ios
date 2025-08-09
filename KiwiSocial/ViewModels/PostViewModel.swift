@@ -4,7 +4,7 @@ class PostViewModel: ObservableObject {
     @Published var posts: [Post] = []
 
     func fetchPosts() {
-        guard let url = URL(string: "http://192.168.1.11:8080/api/posts") else { return }
+        guard let url = URL(string: "http://127.0.0.1:8080/api/posts") else { return }
 
         URLSession.shared.dataTask(with: url) { data, response, error in
             if let error = error {

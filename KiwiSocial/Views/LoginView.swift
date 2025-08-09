@@ -51,9 +51,6 @@ struct LoginView: View {
                         .background(Color.blue)
                         .cornerRadius(10)
                 }
-                .navigationDestination(isPresented: $isLoggedIn) {
-                             HomeView()
-                         }
             }
             .padding()
         }
